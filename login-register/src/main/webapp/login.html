@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<h2>LOGIN</h2>
+<form action="LoginServlet" method="post">
+    <label for="username">Username:</label>
+    <input type="email" name="email" required id="username" placeholder="Enter your username" >
+    <br>
+    <label for="password">Password:</label>
+    <input hidden="hidden" id="password" name="password" placeholder="Enter your password" required type="password">
+    <br>
+    <button type="submit">Login</button>
+    <p>Don't have an account? <a href="register.html">Register</a></p>
+</form>
+
+</body>
+</html>
